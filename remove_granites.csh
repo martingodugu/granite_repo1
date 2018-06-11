@@ -19,7 +19,7 @@ ls -l gBase* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gBase_obj.log
 if ( -z $PXX-gBase_obj.log) then
      echo "no gBase objects to be deleted in the current directory"
 else rm -rf gBase*
-    echo "removing the gbase objects from the "
+    echo "removing the gbase objects from the $work_dir "
 endif
 
 ls -l gGeometry* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gGeometry_obj.log
@@ -27,6 +27,7 @@ ls -l gGeometry* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gGeometry_obj.
 if ( -z $PXX-gGeometry_obj.log) then
      echo "no gGeometry objects to be deleted in the current directory"
 else rm -rf gGeometry*
+    echo "removing the gGeometry objects from the $work_dir "
 endif
 
 ls -l gTranslator* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gTranslator_obj.log
@@ -34,6 +35,7 @@ ls -l gTranslator* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gTranslator_
 if ( -z $PXX-gTranslator_obj.log) then
      echo "no gTranslator objects to be deleted in the current directory"
 else rm -rf gTranslator*
+     echo "removing the gTranslator objects from the $work_dir "
 endif
 
 ls -l gGraphic* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gGraphic_obj.log
@@ -41,6 +43,7 @@ ls -l gGraphic* > /common/tmp/martin/p30/p3047/granite_test/$PXX-gGraphic_obj.lo
 if ( -z $PXX-gGraphic_obj.log) then
      echo "no gGraphic objects to be deleted in the current directory"
 else rm -rf gGraphic*
+     echo "removing the gGraphic objects from the $work_dir "
 endif
 
 
